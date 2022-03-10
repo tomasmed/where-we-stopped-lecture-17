@@ -1,0 +1,8 @@
+.event {
+    background-color: #FFF;
+    border: 2px solid #ffcb05;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+    display: flex;
+}
