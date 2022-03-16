@@ -1,4 +1,4 @@
-# WHERE WE LEFT OFF AFTER LECTURE 16
+# WHERE WE LEFT OFF AFTER LECTURE 17
 
 ### `npm install`
 installs the dependencies
