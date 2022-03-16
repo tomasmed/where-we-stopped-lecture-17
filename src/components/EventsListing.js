@@ -42,15 +42,19 @@ const EventsListing = (props) => {
         // for those not used to it, so we're using forEach() and push() instead.
     }
 
-    return (
-        <div className='events'>
-            {/*
+    if (props.events.length > 0) {
+        return (
+            <div className='events'>
+                {/*
                The events "markup" is generated in a function (above)
                to make this return statement easier to read.
             */}
-            {generateEvents()}
-        </div>
-    );
+                {generateEvents()}
+            </div>
+        );
+    } else {
+        return <h2 className='events--loading'>LOADING!!!!</h2>
+    }
 }
 
 export default EventsListing;

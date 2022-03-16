@@ -6,3 +6,8 @@
     margin-bottom: 20px;
     display: flex;
 }
+
+.starred-event {
+    border-width: 6px;
+    background-color: #ffeea1;
+}
